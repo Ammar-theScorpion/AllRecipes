@@ -1,0 +1,545 @@
+[
+  {
+    "tag": "product_warranty",
+    "patterns": [
+      "does this product come with a warranty"
+    ],
+    "responses": [
+      "Yes, this product comes with a {warranty_period} warranty.",
+      "No, this product does not come with a warranty.",
+      "The warranty for this product is {warranty_period}."
+    ]
+  },
+  {
+    "tag": "product_return",
+    "patterns": [
+      "can i return this item if i don't like it"
+    ],
+    "responses": [
+      "Yes, you can return this item within {return_period} days of purchase.",
+      "No, you cannot return this item.",
+      "Please contact us for more information about the return policy for this product."
+    ]
+  },
+  {
+    "tag": "product_free_shipping",
+    "patterns": [
+      "do you offer free shipping"
+    ],
+    "responses": [
+      "Yes, we offer free shipping on orders over ${min_order_amount}.",
+      "No, we do not offer free shipping."
+    ]
+  },
+  {
+    "tag": "product_discount",
+    "patterns": [
+      "is there a discount code available"
+    ],
+    "responses": [
+      "Yes, there is a discount available with a {discount_percentage}% savings ratio.",
+      "No, there is no discount code available at this time."
+    ]
+  },
+  {
+    "tag": "payment_google",
+    "patterns": [
+      "is google wallet accepted"
+    ],
+    "responses": [
+      "Google Wallet is not currently accepted as a payment option but we invite you to check back later for updates. Thank you!"
+    ]
+  },
+  {
+    "tag": "payment_apple",
+    "patterns": [
+      "can i pay with apple cash"
+    ],
+    "responses": [
+      "Unfortunately, we don't accept Apple Cash as a payment method. We apologize for any inconvenience caused."
+    ]
+  },
+  {
+    "tag": "payment_accept",
+    "patterns": [
+      "accepted methods of payment"
+    ],
+    "responses": [
+      "You can pay with VISA or MASTERCARD only"
+    ]
+  },
+  {
+    "tag": "product_features",
+    "patterns": [
+      "what are the features of this product"
+    ],
+    "responses": [
+      "The features of this product include: {feature_list}",
+      "This product has a variety of features that make it a great choice for your needs. Some of these features include: {feature_list}"
+    ]
+  },
+  {
+    "tag": "return_policy",
+    "patterns": [
+      "what are the return policy"
+    ],
+    "responses": [
+      "Our return policy is 30 days. You can find more information about our return policy on our website.",
+      "Our return policy is designed to make sure that you are happy with your purchase. If you are not happy with your purchase, you can return it within 30 days for a full refund."
+    ]
+  },
+  {
+    "tag": "product_price",
+    "patterns": [
+      "how much does this product cost"
+    ],
+    "responses": [
+      "This product costs ${price}."
+    ]
+  },
+  {
+    "tag": "customer_service",
+    "patterns": [
+      "who can i contact for customer service"
+    ],
+    "responses": [
+      "You can contact our customer service team at 1-800-555-1212. Our customer service team is available 24/7 to answer your questions."
+    ]
+  },
+  {
+    "tag": "product_colors",
+    "patterns": [
+      "what are the different colors of this product available"
+    ],
+    "responses": [
+      "This product is available in the following colors: {color_list}."
+    ]
+  },
+  {
+    "tag": "return_reason",
+    "patterns": [
+      "what are your reasons for returning this item"
+    ],
+    "responses": [
+      "I'm sorry to hear that you're returning this item.",
+      "Can you tell me more about why you're returning this item?",
+      "We're always looking for ways to improve our products and services. Your feedback will help us do that."
+    ]
+  },
+  {
+    "tag": "last_model_features",
+    "patterns": [
+      "what are the features of the latest model of {prodcut_name}"
+    ],
+    "responses": [
+      "The latest model of the {product_name} is {latest_model}."
+    ]
+  },
+  {
+    "tag": "product_list",
+    "patterns": [
+      "Can you provide a list of the best-selling products in {category}"
+    ],
+    "responses": [
+      "Sure, here are a few of the best-selling products in the {category}: {product_list}"
+    ]
+  },
+  {
+    "tag": "product_availability",
+    "patterns": [
+      "is the product available in different colors or sizes"
+    ],
+    "responses": [
+      "Yes, the product is available in the following colors: {color_list}.",
+      "It is also available in sizes {size_list}."
+    ]
+  },
+  {
+    "tag": "product_price_range",
+    "patterns": [
+      "What is the price range for {product_name}"
+    ],
+    "responses": [
+      "The price range for {product_name} typically ranges from ${min_price} to ${max_price}."
+    ]
+  },
+  {
+    "tag": "product_dimensions_and_weight",
+    "patterns": [
+      "what are the dimensions and weight of this item"
+    ],
+    "responses": [
+      "The dimensions of this item are {dimensions}. The weight of this item is {weight}."
+    ]
+  },
+  {
+    "tag": "product_images",
+    "patterns": [
+      "can i see pictures of the product"
+    ],
+    "responses": [
+      "Sure, here are pictures of the product {images}."
+    ]
+  },
+  {
+    "tag": "product_customization_options",
+    "patterns": [
+      "do you offer engraving or customization options"
+    ],
+    "responses": [
+      "Yes, we offer engraving and customization options for some products. Please contact us for more information."
+    ]
+  },
+  {
+    "tag": "order_status",
+    "patterns": [
+      "can you provide an update on the status of my recent order"
+    ],
+    "responses": [
+      "Sure, I can provide an update on the status of your order. Your order is currently being processed and is expected to ship within {estimated_ship_date} business days."
+    ]
+  },
+  {
+    "tag": "delivery_date",
+    "patterns": [
+      "when can i expect my package to be delivered"
+    ],
+    "responses": [
+      "Your package is expected to be delivered within {delivery_time} business days."
+    ]
+  },
+  {
+    "tag": "tracking_number",
+    "patterns": [
+      "how can i track my shipment using the tracking number"
+    ],
+    "responses": [
+      "You can also track your package on our website by entering the tracking number in the tracking tool."
+    ]
+  },
+  {
+    "tag": "shipping_address_change",
+    "patterns": [
+      "is it possible to change the shipping address for my order"
+    ],
+    "responses": [
+      "Yes, it is possible to change the shipping address for your order. Please contact us as soon as possible to make the change."
+    ]
+  },
+  {
+    "tag": "payment_confirmation",
+    "patterns": [
+      "can you confirm if my payment for the order was successful"
+    ],
+    "responses": [
+      "Your payment for the order was successful.",
+      "Your payment is still pending. Please contact us if you have any questions."
+    ]
+  },
+  {
+    "tag": "order_delay",
+    "patterns": [
+      "why was my order delayed, and how much longer will it take"
+    ],
+    "responses": [
+      "There was a delay in shipping your order due to unforeseen circumstances. Your order is now scheduled to ship within {estimated_ship_date} business days."
+    ]
+  },
+  {
+    "tag": "return_initiation",
+    "patterns": [
+      "how can i initiate a return for a product that i purchased if i'm not satisfied"
+    ],
+    "responses": [
+      "To initiate a return, please contact our customer service team and they will be happy to help you."
+    ]
+  },
+  {
+    "tag": "product_exchange",
+    "patterns": [
+      "can i exchange a product for a different size or color"
+    ],
+    "responses": [
+      "Yes, you can exchange a product for a different size or color within 30 days of purchase.To exchange a product, please contact our customer service team and they will be happy to help you."
+    ]
+  },
+  {
+    "tag": "refund_processing_time",
+    "patterns": [
+      "how long does it take to process a refund after the return is received"
+    ],
+    "responses": [
+      "We will process your refund within 7-10 business days after we receive the returned merchandise. You will receive an email notification once your refund has been processed."
+    ]
+  },
+  {
+    "tag": "sale_product_return_policy",
+    "patterns": [
+      "what is the policy for returning products that were purchased on sale"
+    ],
+    "responses": [
+      "You can return products that were purchased on sale within 30 days of purchase. However, you will only receive a refund for the original price of the product, not the sale price, To return a product that was purchased on sale, please contact our customer service team and they will be happy to help you."
+    ]
+  },
+  {
+    "tag": "discount_code",
+    "patterns": [
+      "how can i apply a discount code during the checkout process"
+    ],
+    "responses": [
+      "You can apply a discount code during the checkout process by entering the code in the discount code field."
+    ]
+  },
+  {
+    "tag": "payment_declined",
+    "patterns": [
+      "what should i do if my payment is declined during checkout"
+    ],
+    "responses": [
+      "If your payment is declined during checkout, please check your card details and make sure that they are correct, You can also try using a different card. Please contact us if you have any questions about your payment."
+    ]
+  },
+  {
+    "tag": "split_payment",
+    "patterns": [
+      "is it possible to split the payment between two different cards"
+    ],
+    "responses": [
+      "Yes, it is possible to split the payment between two different cards. Please contact us if you have any questions about splitting your payment."
+    ]
+  },
+  {
+    "tag": "save_payment_information",
+    "patterns": [
+      "can i save my payment information for future purchases"
+    ],
+    "responses": [
+      "Yes, you can save your payment information for future purchases. To do this, please check the box next to 'Save my payment information for future purchases' during the checkout process. You can also update your payment information at any time by logging into your account."
+    ]
+  },
+  {
+    "tag": "installments",
+    "patterns": [
+      "how many installments can i split my purchase into"
+    ],
+    "responses": [
+      "You can split your purchase into up to 12 installments. To do this, please select the 'Pay in installments' option during the checkout process."
+    ]
+  },
+  {
+    "tag": "submit_another_payment_method",
+    "patterns": [
+      "may i submit another method of payment once the order is processed"
+    ],
+    "responses": [
+      "Yes, you may submit another method of payment once the order is processed. To do this, please contact us and we will be happy to assist you."
+    ]
+  },
+  {
+    "tag": "foreign_currency_fees",
+    "patterns": [
+      "will foreign currency transactions attract additional fees"
+    ],
+    "responses": [
+      "Yes, foreign currency transactions may attract additional fees. Please contact us for more information about foreign currency fees."
+    ]
+  },
+  {
+    "tag": "account_creation",
+    "patterns": [
+      "how can i create an account on your website"
+    ],
+    "responses": [
+      "To create an account on our website, please visit our website and click on the 'Create an Account' button. You will need to provide your name, email address, and password."
+    ]
+  },
+  {
+    "tag": "shipping_address_update",
+    "patterns": [
+      "how do i update my shipping address in my account settings"
+    ],
+    "responses": [
+      "To update your shipping address in your account settings, please log into your account and go to the 'Account Settings' page. Under the 'Shipping Address' section, you can enter your new shipping address."
+    ]
+  },
+  {
+    "tag": "email_address_change",
+    "patterns": [
+      "can i change my email address associated with my account"
+    ],
+    "responses": [
+      "Yes, you can change your email address associated with your account. To do this, please log into your account and go to the 'Account Settings' page. Under the 'Account Information' section, you can enter your new email address."
+    ]
+  },
+  {
+    "tag": "account_deletion",
+    "patterns": [
+      "how can i delete my account from your website"
+    ],
+    "responses": [
+      "To delete your account from our website, please contact us and we will assist you. We may ask you to provide some information to verify your identity before we can delete your account."
+    ]
+  },
+  {
+    "tag": "expedited_shipping",
+    "patterns": [
+      "what are my choices for expedited shipping"
+    ],
+    "responses": [
+      "We offer a variety of expedited shipping options, including 2-day shipping, overnight shipping, and same-day shipping. The specific options available to you will depend on your location and the weight and size of your order."
+    ]
+  },
+  {
+    "tag": "taxes",
+    "patterns": [
+      "will there be taxes added during checkout or upon delivery"
+    ],
+    "responses": [
+      "Taxes will be added during checkout. The amount of tax charged will depend on your location and the total amount of your order."
+    ]
+  },
+  {
+    "tag": "shipping_carrier",
+    "patterns": [
+      "which carrier will deliver my items"
+    ],
+    "responses": [
+      "Your carrier is determined based on your location and the specifics of your order, which is {carrier_name}"
+    ]
+  },
+  {
+    "tag": "signature_confirmation",
+    "patterns": [
+      "are there signature confirmation options available"
+    ],
+    "responses": [
+      "Yes, signature confirmation is available for an additional fee. Signature confirmation means that the carrier will require a signature from the recipient before delivering the package."
+    ]
+  },
+  {
+    "tag": "change_delivery_date",
+    "patterns": [
+      "can i change the delivery date or timeframe for my order"
+    ],
+    "responses": [
+      "Yes, you can change the delivery date or timeframe for your order. To do this, please contact us and we will be happy to assist you."
+    ]
+  },
+  {
+    "tag": "free_gifts",
+    "patterns": [
+      "am i eligible for free gifts with my current order total"
+    ],
+    "responses": [
+      "Yes, you may be eligible for free gifts with your current order total. To find out if you are eligible, please add the items you want to your cart and proceed to checkout."
+    ]
+  },
+  {
+    "tag": "promo_code_stacking",
+    "patterns": [
+      "can i stack promo codes during checkout"
+    ],
+    "responses": [
+      "Yes, you can stack promo codes during checkout. However, not all promo codes can be stacked."
+    ]
+  },
+  {
+    "tag": "black_friday_deals",
+    "patterns": [
+      "are there exclusive black friday deals that apply only to certain categories"
+    ],
+    "responses": [
+      "Yes, we offer exclusive Black Friday deals that apply only to certain categories. To find out more about these deals, please visit our website during Black Friday."
+    ]
+  },
+  {
+    "tag": "buy_two_get_one_free",
+    "patterns": [
+      "if i buy two items today, am i entitled to a discount on my next purchase"
+    ],
+    "responses": [
+      "Yes, we offer a buy-two-get-one-free promotion on select items. To find out more about this promotion, check our website."
+    ]
+  },
+  {
+    "tag": "physical_store_locations",
+    "patterns": [
+      "are there physical store locations where i can pick up an item"
+    ],
+    "responses": [
+      "Yes, we have physical store locations where you can pick up an item. To find a store near you, please visit our website and click on the 'Store Locator' page."
+    ]
+  },
+  {
+    "tag": "track_returns",
+    "patterns": [
+      "how do i track returns, replacements, or exchanges online"
+    ],
+    "responses": [
+      "To track returns, replacements, or exchanges online, please visit our website and click on the 'Order Status' page."
+    ]
+  },
+  {
+    "tag": "technical_support",
+    "patterns": [
+      "can i speak with a specialist if i face technical problems navigating your website"
+    ],
+    "responses": [
+      "Yes, you can speak with a specialist if you face technical problems navigating our 'Contact Us' page."
+    ]
+  },
+  {
+    "tag": "email_receipts",
+    "patterns": [
+      "can you email me copies of past receipts or correspondence"
+    ],
+    "responses": [
+      "Yes, we can email you copies of past receipts or correspondence. Please visit our website and click on the 'Contact Us' page."
+    ]
+  },
+  {
+    "tag": "password_reset",
+    "patterns": [
+      "How do i reset my password if i forgot it"
+    ],
+    "responses": [
+      "If you have forgotten your password, you can reset it by clicking on the 'Forgot Password' link on the login page. You will need to enter your email address and we will send you a link to reset your password."
+    ]
+  },
+  {
+    "tag": "login_troubleshooting",
+    "patterns": [
+      "i'm having trouble logging into my account - what's the issue"
+    ],
+    "responses": [
+      "Please check to make sure that you are entering your username and password correctly. If you are still having trouble logging in, please contact us and we will be happy to help you."
+    ]
+  },
+  {
+    "tag": "form_filling_troubleshooting",
+    "patterns": [
+      "i keep getting errors while trying to fill out a form. can you assist me"
+    ],
+    "responses": [
+      "Please make sure that you are entering the correct information in the correct fields. If you are still having trouble filling out a form, please contact us and we will be happy to help you."
+    ]
+  },
+  {
+    "tag": "zoom_troubleshooting",
+    "patterns": [
+      "whenever i click 'zoom', nothing happens. could you please help resolve the problem"
+    ],
+    "responses": [
+      "Please contact us and we will be happy to help you."
+    ]
+  },
+  {
+    "tag": "image_loading_troubleshooting",
+    "patterns": [
+      "the images on your page aren't loading properly. is there anything wrong with the site"
+    ],
+    "responses": [
+      "There are a few reasons why the images on our site might not be loading properly. Please make sure that you have a stable internet connection. You may also need to clear your browser's cache and cookies. If you are still having trouble loading images, please contact us and we will be happy to help you."
+    ]
+  }
+]
